@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    background-color: #d8d8d8;
+}
+
+h1,
+p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ===============================================================  vertical nav  ================================================ */
+.vertical {
+    margin: 10px;
+}
+
+.vertical-list {
+    list-style: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+.v-list a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.v-list a:hover {
+    background-color: lightblue;
+}
+
+/* =======================================================  horizontal nav  =================================================== */
+.horizontal {
+    margin: 10px;
+}
+
+.horizontal-list {
+    list-style: none;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+}
+
+.h-list a {
+    display: block;
+    text-decoration: none;
+    padding: 18px 16px;
+}
+
+.h-list a:hover {
+    background-color: lightblue;
+}
+
+/* ===========================================================  email-card  ======================================================== */
+.email-card h1,
+.email-card p {
+    text-align: start;
+}
+
+.email-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+/* ============================================================  Table-Card  ======================================================= */
+table {
+    width: 70vw;
+    margin: 40px auto;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    padding: 5px 0 5px 15px;
+    text-align: left;
+}
+
+.country {
+    border-right: 2px solid rgba(128, 128, 128, 0.444);
+}
+
+.company {
+    border-left: 2px solid rgba(128, 128, 128, 0.444);
+
+}
+
+/* ==============================================================  login form  ===================================================== */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.input-part {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-part label {
+    font-weight: bold;
+}
+
+.input-part input,
+.input-part select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-part select {
+    margin-right: 95px;
+}
+
+.btn-save {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-save:hover {
+    background-color: #0056b3;
+}
+
+/* ============================================================  shapes  ===================================================== */
+.shapes {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    gap: 30px;
+    justify-content: center;
+}
+
+.shape-1 {
+    border-radius: 15px;
+    width: 170px;
+    height: 120px;
+    border: 5px solid rgb(154 202 62);
+}
+
+.shape-2 {
+    border-radius: 30px;
+    width: 170px;
+    height: 120px;
+    border: 5px solid rgb(154 202 62);
+}
+
+.shape-3 {
+    border-radius: 20px;
+    width: 170px;
+    height: 120px;
+    border: 5px solid rgb(154 202 62);
+}
+
+.shape-4 {
+    border-radius: 7px;
+    width: 170px;
+    height: 120px;
+    border: 5px solid rgb(154 202 62);
+}
+
+.shape-5 {
+    border-radius: 50%;
+    width: 170px;
+    height: 120px;
+    border: 5px solid rgb(154 202 62);
+}
+
+.shape-6 {
+    border-radius: 7px 30px 7px 30px;
+    width: 170px;
+    height: 120px;
+    border: 5px solid rgb(154 202 62);
+}
